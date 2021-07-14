@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/354951293.svg)](https://zenodo.org/badge/latestdoi/354951293)
+
 ## INFIMA
 **INFIMA** is an R package for the **In**tegrative **Fi**ne-**Ma**pping with Model Organism Multi-Omics Data. **INFIMA** utilizes the diversity outbred (DO) mice population as the model organsim. The major usage of the **INFIMA** package is to fine-map the eQTL markers in DO studies (DO-eQTL). **INFIMA** implements an empirical Bayes model which quantifies how well each non-coding SNP explains the observed DO allelic patern through consistency of founder mice RNA-seq data, founder mice ATAC-seq data (including the existence and consistency of a footprint) with the observed allelic pattern. **INFIMA** assumes 0 or 1 causal SNPs for a DO-eQTL gene. Given a library of mouse SNPs, the corresponding local ATAC-seq signals, DO-eQTL data as well as the gene expression in founder mice, **INFIMA** provides the following functionalities:
 
